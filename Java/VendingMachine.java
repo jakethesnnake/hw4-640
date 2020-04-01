@@ -3,15 +3,15 @@ import java.util.*;
 
 public class VendingMachine {
     HashMap<Integer, StockItem> stock;
-    double balance = 0;
-    double maxCost = 0;
-    int selection = 0;
+    public double balance = 0;
+    public double maxCost = 0;
+    public int selection = 0;
 
-    enum State {
+    public enum State {
         START, INSERT, SELECT, DISPENSE, CHANGE, OFF, STOCK
     }
 
-    State status = State.OFF;
+    public State status = State.OFF;
 
     public VendingMachine() {
         stock = new HashMap<Integer, StockItem>();
