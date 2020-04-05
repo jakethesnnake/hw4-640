@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="Java"/>
+	<classpathentry excluding="Test/jar/" kind="src" path="Java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
-	<classpathentry kind="lib" path="C:/Users/jake/hw4-640/Java"/>
-	<classpathentry kind="lib" path="C:/Users/jake/hw4-640/Java/hamcrest-core-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/jake/hw4-640/Java/junit-4.13.jar"/>
-	<classpathentry kind="lib" path="C:/Users/jake/hw4-640/Java/junit5-1.26.141.jar"/>
-	<classpathentry kind="lib" path="C:/Users/jake/hw4-640/Java/mockito-all-1.10.19.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/jake/hw4-640/Java/system-rules-1.15.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/jake/hw4-640/Java/commons-io-2.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/jake/hw4-640/Java/powermock-mockito-1.4.12-full.jar"/>
+	<classpathentry kind="lib" path="Java/Test/jar"/>
+	<classpathentry kind="lib" path="Java/Test/jar/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="Java/Test/jar/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="Java/Test/jar/junit-4.13.jar"/>
+	<classpathentry kind="lib" path="Java/Test/jar/junit5-1.26.141.jar"/>
+	<classpathentry kind="lib" path="Java/Test/jar/mockito-all-1.10.19.jar"/>
+	<classpathentry kind="lib" path="Java/Test/jar/powermock-mockito-1.4.12-full.jar"/>
+	<classpathentry kind="lib" path="Java/Test/jar/system-rules-1.15.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

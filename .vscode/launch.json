@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<hw4-640>",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "hw4-640"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<hw4-640>(1)",
+            "request": "launch",
+            "mainClass": "Test.Main",
+            "projectName": "hw4-640"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Version<hw4-640>",
+            "request": "launch",
+            "mainClass": "junit.runner.Version",
+            "projectName": "hw4-640"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestRunner<hw4-640>",
+            "request": "launch",
+            "mainClass": "junit.textui.TestRunner",
+            "projectName": "hw4-640"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JUnitCore<hw4-640>",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "projectName": "hw4-640"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ASMifierClassVisitor<hw4-640>",
+            "request": "launch",
+            "mainClass": "org.mockito.asm.util.ASMifierClassVisitor",
+            "projectName": "hw4-640"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CheckClassAdapter<hw4-640>",
+            "request": "launch",
+            "mainClass": "org.mockito.asm.util.CheckClassAdapter",
+            "projectName": "hw4-640"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TraceClassVisitor<hw4-640>",
+            "request": "launch",
+            "mainClass": "org.mockito.asm.util.TraceClassVisitor",
+            "projectName": "hw4-640"
+        }
+    ]
+}

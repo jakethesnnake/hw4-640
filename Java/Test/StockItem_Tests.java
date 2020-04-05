@@ -1,27 +1,18 @@
-/**
- * Testing class: StockItem
- */
+package Test;
 
-
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 
 /**
- * @author jake willson
- *
+ * Unit tests on public attributes
+ * of stock item class
  */
-class StockItemTest {
+class StockItem_Tests {
 	
 	/**
 	 * Attribute values
 	 */
-	
 	private static StockItem item;
 	private static String name = "ItemName";
 	private static double cost = 5.75;

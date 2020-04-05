@@ -3,11 +3,11 @@
  * 
  * Class can be initialized without User I/O
  */
-import java.util.Scanner;
-public class VendingMachineStub extends VendingMachine {
+package Test;
+public class VendingMachine_Stub extends VendingMachine {
 	private static final String filename = "sampleStock";
 	
-	public VendingMachineStub() {
+	public VendingMachine_Stub() {
 		super();
 	}
 	
